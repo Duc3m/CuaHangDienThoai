@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2024 at 11:35 AM
+-- Generation Time: May 05, 2024 at 01:13 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -377,7 +377,19 @@ INSERT INTO `pbsanpham` (`id`, `sanPham_id`, `ram`, `rom`, `mau`, `soLuong`, `gi
 (20, 10, 8, 512, 'Vàng', 0, 20000000, 26490000, 1),
 (21, 10, 8, 512, 'Xám', 0, 20000000, 26490000, 1),
 (22, 10, 8, 512, 'Đen', 0, 20000000, 26490000, 1),
-(23, 10, 8, 512, 'Tím', 0, 20000000, 26490000, 1);
+(23, 10, 8, 512, 'Tím', 0, 20000000, 26490000, 1),
+(24, 4, 8, 256, 'Titan xanh', 0, 28990000, 34990000, 1),
+(25, 4, 8, 256, 'Titan xanh', 0, 28990000, 34990000, 1),
+(26, 4, 8, 512, 'Titan xanh', 0, 31990000, 40990000, 1),
+(27, 4, 8, 256, 'Titan đen', 0, 28999000, 35990000, 1),
+(28, 6, 8, 128, 'Xanh lá', 0, 4599000, 5290000, 1),
+(29, 6, 8, 128, 'Vàng', 0, 4599000, 5290000, 1),
+(30, 6, 6, 128, 'Xanh lá', 0, 4299000, 4990000, 0),
+(31, 6, 8, 128, 'Đen', 0, 4699000, 5290000, 1),
+(32, 6, 8, 256, 'Đen', 0, 4899000, 5690000, 1),
+(33, 7, 8, 128, 'Xanh lá', 0, 6699000, 7490000, 1),
+(34, 7, 8, 128, 'Xanh lá', 0, 6699000, 7490000, 1),
+(35, 7, 8, 256, 'Tím', 0, 6899000, 7890000, 1);
 
 -- --------------------------------------------------------
 
@@ -695,7 +707,7 @@ ALTER TABLE `nhanvien`
 -- AUTO_INCREMENT for table `pbsanpham`
 --
 ALTER TABLE `pbsanpham`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
 
 --
 -- AUTO_INCREMENT for table `phieunhap`
